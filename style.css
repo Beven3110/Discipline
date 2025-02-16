@@ -32,6 +32,10 @@ p{
     padding: 20px 0;
 }
 
+.logo img {
+    display: block;
+    margin: 0 auto;
+}
 
 nav{
     margin-top: 10px; /* Adjust spacing */
