@@ -31,9 +31,29 @@ p{
     text-align: center;
     padding: 20px 0;
 }
+
+
 nav{
-    flex: 1;
-    text-align: right;
+    margin-top: 10px; /* Adjust spacing */
+}
+
+#MenuItems {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#MenuItems li {
+    display: inline;
+}
+
+#MenuItems li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
 }
 nav ul{
     display: inline-block;
