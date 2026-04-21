@@ -909,4 +909,84 @@ footer > a {
   .grid-container {
     margin-left: 250px;
   }
+  /* ---------- MOBILE FIXES ---------- */
+@media (max-width: 768px) {
+
+  /* remove forced widths */
+  .class-container,
+  .class-info {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .programs-container {
+    width: 100% !important;
+    padding: 0 15px;
+  }
+
+  /* fix about section layout */
+  #about-us div[style*="display: flex"] {
+    flex-direction: column !important;
+    text-align: center;
+  }
+
+  #about-us img {
+    width: 100% !important;
+    max-width: 300px;
+  }
+
+  /* fix hero spacing */
+  #home > h3 {
+    padding-top: 120px !important;
+    font-size: 1.1rem;
+  }
+
+  #home > h1 {
+    font-size: 1.8rem;
+    padding: 0 15px;
+  }
+
+  /* buttons stack nicely */
+  #btn1, #btn2 {
+    display: block;
+    margin: 10px auto;
+  }
+
+  /* membership grid stack */
+  .grid-container {
+    display: block !important;
+  }
+
+  .hours {
+    margin-top: 30px !important;
+    border-left: none !important;
+    padding-left: 0 !important;
+  }
+
+  /* carousel fix */
+  .carousel img {
+    height: auto !important;
+  }
+
+  /* schedule image */
+  #schedules img {
+    width: 100%;
+  }
+
+  /* testimonial cards */
+  .card {
+    width: 240px;
+  }
+
+  /* menu spacing */
+  #menu {
+    padding: 20px !important;
+  }
+
+  /* remove weird left offsets */
+  #menuToggle:after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
 }
