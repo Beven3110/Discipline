@@ -1,214 +1,412 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Discipline | Store</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="r.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title style="color:  red;">Discipline</title>
 </head>
+
 <body>
-   
-   <div class="header">
-       <div class="container">
-          <div class="navbar">
-              <div class="logo">
-                  <a href="index.html"><img src="images/logo.png" width="175px"></a>
-              </div>
-              <nav>
-               <ul id="MenuItems">
-              <li><a href="index.html">Home</a></li>
-                <li><a href="products.html">Merch</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-               </ul>
-              </nav>
-          </div>
-           <div class="row">
-                <div class="col-2">
-
-                    <img src="images/logo.png" width="825px">
-                    <p>Scroll down to see our new limited protein powder or click the button below to see our merch!</p>
-                    <a href="products.html" class="btn"> Explore Merch &#8594;</a>
+    <div class="page-wrapper">
+        <header>
+            <nav>
+                <div id="menuToggle">
+                    <input type="checkbox">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul id="menu">
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#about-us">ABOUT US</a></li>
+                        <li><a href="#programs">PROGRAMS</a></li>
+                        <li><a href="#schedules">SCHEDULES</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                       
+                    </ul>
                 </div>
-                <div class="col-2">
-                    <img src="images/image1.png">
+            </nav>
+
+<!--            desktop menu-->
+            <ul id="desktop-menu">
+                <a href="index.html" class="company-logo" style="color:  red;">Discipline</a>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about-us">ABOUT US</a></li>
+                <li><a href="#programs">PROGRAM</a></li>
+                <li><a href="#schedules">SCHEDULE</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </header>
+
+        <main>
+            <section id="home">
+                <h3 data-aos="slide-up">30 Days Workout Program</h3>
+                <h1 data-aos="slide-up">UPGRADE YOUR BODY AT DISCIPLINE</h1>
+                <a href="#membership" id="btn1" data-aos="slide-up">GET STARTED</a>
+                <a href="#about-us" id="btn2" data-aos="slide-up">LEARN MORE</a>
+            </section>
+
+            <section id="membership">
+                <div class="grid-container">
+                    <div class="membership-details">
+                        <h2 data-aos="slide-up">New to Discipline?</h2>
+                        <h3 data-aos="slide-up">We work with disciplined fitness influencers to help you get to the best version of yourself in 30 days.</h3>
+                        <a href="#programs" id="member-btn" data-aos="slide-up">BECOME A MEMBER TODAY</a>
+                    </div>
+
+                    <div class="hours">
+                        <h3 data-aos="slide-up">What You Get:</h3>
+
+                            <p class="days" data-aos="slide-up"><strong>
+                                    Workouts
+                                  </strong></p> 
+                                 <p class="days" data-aos="slide-up"><strong>Progress Tracker</strong></p>
+                                 <p class="days" data-aos="slide-up"><strong>Diet Plans</strong></p>
+                            <p class="days" data-aos="slide-up"><strong>Recipes</strong></p> 
+                    </div>
                 </div>
-               
-           </div>
-           
-       </div>
-       </div>
-<!------------------ featured categories --------------->
-     <div class="categories">
-         <div class="small-container">
-           <div class="row">
-               <div class="col-3">
-                   <img src="images/category-1.jpg">
-               </div> 
-               <div class="col-3">
-                  <img src="images/category-2.jpg">
-               </div> 
-               <div class="col-3">
-                   <img src="images/category-3.jpg">
-               </div> 
-           </div>
-       </div>
-     </div>
-       
-<!-------------- Our Featured Products -------------->
-  
-  
-  <div class="small-container">
-        <h2 class="title">Featured Products</h2>
-           <div class="row">
-               <div class="col-4">
-                   
-                    <a href="https://square.link/u/45Disc2c"><img src="images/1.png"></a>
-                        <h4>Vanilla Whey Protein Isolate</h4>
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-o"></i>
-                        </div>
-                        <p>$72.99</p>
-                    </div> 
-                    <div class="col-4">
-                     <a href="https://square.link/u/Z2IHSFoh"><img src="images/2.png"></a>
-                        <h4>Chocolate Whey Protein Isolate</h4>
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-o"></i>
-                        </div>
-                        <p>$72.99</p>
-                    </div> 
-           </div>
-        <h2 class="title">Extras</h2>
-             <div class="row">
-               <div class="col-4">
-                <a href="https://square.link/u/IQyNaGFD"><img src="images/s44.png"></a>
-                <h4>Discipline Dumbbell 30kg Adjustable Weight Set</h4>
-                   <div class="rating">
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star-o"></i>
-                   </div>
-                   <p>$69.00</p>
-               </div> 
-               <div class="col-4">
-                <a href="https://square.link/u/dla5OH8b"><img src="images/s45.png"></a>
-                <h4>Discipline 2 Dropset Pins</h4>
-                   <div class="rating">
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star-half-o"></i>
-                   </div>
-                   <p>$59.00</p>
-               </div> 
-                <div class="col-4">
-                    <a href="https://square.link/u/fPFWtQhX"><img src="images/s46.png"></a>
-                    <h4>Discipline Dumbbell 2 Spotters</h4>
-                   <div class="rating">
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star"></i>
-                       <i class="fa fa-star-o"></i>
-                   </div>
-                   <p>$119.00</p>
-               </div> 
-           </div>
-       </div>
-       
-<!----------offer--------------->
-  
-   <div class="offer">
-       <div class="small-container">
-           <div class="row">
-           <div class="col-2">
-               <img src="images/exclusive.png" class="offer-img">
-           </div>
-           <div class="col-2">
-               <p>"For a man to conquer himself is the first and noblest of all victories." -Plato</p>
-               <h1>Our Mission</h1>
-               <medium>At Discipline, we’re not just selling protein — we’re fuelling a mindset. We believe greatness doesn’t come from hype, but from showing up, every damn day. Our mission is to support the athletes, creators, and grinders who train through the noise, stay consistent, and live with purpose. No shortcuts. Just clean, effective fuel for people who earn their results. Taste Discipline — and live it.</small>
-               <br>
-               <a href="products.html"  class="btn">See Merch &#8594;</a>
-           </div>
-       </div>
-       </div>
-       
-   </div>
+            </section>
 
-<!----------Footer---------------> 
+            <section id="about-us" style="padding: 40px 20px;">
 
-<div class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="footer-col1">
-               <h3>100% Cotton</h3>
-                <div class="app-logo">
-                    <img src="images/play-store.png">
+                <div style="max-width: 1000px; margin: 0 auto;">
+              
+                 
+              
+                  <div data-aos="slide-up" 
+                       style="display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; margin-top: 30px;">
+              
+                    <!-- TEXT -->
+                    <div style="flex: 1; min-width: 280px;">
+                        <h2 data-aos="slide-up" style="color:  red;">Hello, we are Discipline</h2>
+                      <p style="line-height: 1.6;">
+                        Discipline is your all-in-one fitness system built for results.
+                        We combine effective training methods, simple nutrition strategies, and structured programs into one simple but productive experience.
+                        <br><br>
+                        Whether your goal is fat loss, muscle building, or overall fitness, Discipline provides a clear, actionable plan you can follow daily with or without equipment. Every program is designed to be practical, efficient, and easy to stick to.
+                      </p>
+                    </div>
+              
+                    <!-- IMAGE -->
+                    <div style="flex: 1; min-width: 280px; text-align: center;">
+                      <img src="fit.png" alt="Offer"
+                           style="width: 350px; max-width: 100%;">
+                    </div>
+              
+                  </div>
+              
                 </div>
-            </div>
-            <div class="footer-col2">
-               <img src="images/logo-white.png">
-                <p>DISCIPLINE is the BRIDGE between GOALS and ACCOMPLISHMENTS.</p>
-            </div>
-            <div class="footer-col3">
-               <h3>Join Affiliate</h3>
-               <h4>dm 'Affiliate' to get started</h4>
-                <ul>
-                </ul>
-            </div>
-            <div class="footer-col4">
-               <h3>Follow Us</h3>
-                <ul>
-                    <a href="https://www.instagram.com/disciplinestore_au/">Instagram: disciplinestore_au</a>
-                </ul>
-            </div>
-        </div>
-        <hr>
-        <p class="copyright">Copyright 2025 - DISCIPLINE</p>
-    </div>
-    
-</div>
+              
+              </section>
 
+              <section id="programs">
 
+                <div class="class-container" align="center" style="width:970px;">
+                    <h3 data-aos="slide-up">Get A Perfect Body with</h3>
+                    <h2 data-aos="slide-up" style="color: red;">
+                        Our 30 Days Transformation Program
+                    </h2>
+                </div>
+            
+                <center>
+                    <div class="programs-container" data-aos="slide-up" style="margin-top: 40px;">
+                        
+                        <style>
+                            .carousel {
+                                text-align: center;
+                                max-width: 600px;
+                                margin: 0 auto;
+                            }
+                            
+                            .carousel img {
+                                width: 100%;
+                                height: 450px;
+                                object-fit: cover;
+                                border-radius: 10px;
+                            }
+                            
+                            .dots {
+                                margin-top: 15px;
+                            }
+                            
+                            .dot {
+                                height: 12px;
+                                width: 12px;
+                                margin: 5px;
+                                background-color: #555;
+                                border-radius: 50%;
+                                display: inline-block;
+                                cursor: pointer;
+                            }
+                            
+                            .active {
+                                background-color: red;
+                            }
+                            </style>
+                            
+                            <div class="carousel">
+                            
+                              <!-- IMAGES -->
+                              <img id="sliderImage" src="tran.png">
+                            
+                              <!-- DOTS -->
+                              <div class="dots">
+                                <span class="dot active" onclick="changeSlide(0)"></span>
+                                <span class="dot" onclick="changeSlide(1)"></span>
+                                <span class="dot" onclick="changeSlide(2)"></span>
+                              </div>
+                            
+                            </div>
+                            
+                            <script>
+                            const images = [
+                              "tran.png",
+                              "9.png",
+                              "8.png"
+                            ];
+                            
+                            function changeSlide(index) {
+                                document.getElementById("sliderImage").src = images[index];
+                            
+                                document.querySelectorAll(".dot").forEach(dot => dot.classList.remove("active"));
+                                document.querySelectorAll(".dot")[index].classList.add("active");
+                            }
+                            </script>
+                             
+                             <div class="class-info" align="center" style="width:500px;">
+                                <h3 class="name-heading">30 Days</h3>
+                                <h4>Transformation Program</h4>
+                            
+                                <p>
+                                    <span style="text-decoration: line-through; color: gray;">$49.99</span>
+                                    <span style="color: red; font-size: 20px; font-weight: bold;"> $19.99</span>
+                                </p>
+                            
+                                <a href="https://buy.stripe.com/28E7sL3Bw3en5Kz6Mh6J205" 
+   style="background-color: red; color: white; border: none; padding: 10px 20px; font-size: 16px; cursor: pointer; text-decoration: none; display: inline-block;">
+   Buy Now
+</a>
+                            </div>
+            
+                    </div>
+                </center>
 
-<!-------------js for toggle menu-------------->
+            </section>
 
-<script>
-    
-    var MenuItems = document.getElementById("MenuItems");
-    
-    MenuItems.style.maxHeight = "0px";
-    
-    function menutoggle()
-    {
-        if(MenuItems.style.maxHeight == "0px")
-            {
-                MenuItems.style.maxHeight = "200px";
-            }else
-            {
-                MenuItems.style.maxHeight = "0px"
-            } 
+            <section id="schedules" style="text-align: center;">
+                <h3 data-aos="slide-up">An Example Of Our</h3>
+                <h2 data-aos="slide-up" style="color: red;">Workout Schedule</h2>
+                <img src="schedule2.png" alt="Offer" style="text-align: center;">
+            </img>
+            </section>
+            <section id="contact" style="padding: 40px 20px; text-align: center;">
+
+                <div data-aos="slide-up" style="max-width: 800px; margin: 0 auto;">
+              
+                  <!-- NEW BLACK BANNER -->
+                  <div style="background-color: #000; padding: 30px 20px; border-radius: 10px; margin-bottom: 20px;">
+                    <h1 style="color: #fff; font-size: 32px; margin: 0; font-weight: bold;">
+                      Helped 6,000+ People Achieve Their Goal So Far
+                    </h1>
+                  </div>
+              
+                  <!-- TESTIMONIAL SLIDER -->
+<style>
+    .slider {
+        overflow: hidden;
+        width: 100%;
+        margin-top: 20px;
     }
     
-</script>
+    .slide-track {
+        display: flex;
+        width: calc(300px * 12);
+        animation: scroll 25s linear infinite;
+    }
+    
+    .card {
+        width: 280px;
+        margin: 10px;
+        padding: 20px;
+        background: #1a1a1a;
+        border: 1px solid #333;
+        border-radius: 10px;
+        color: white;
+        flex-shrink: 0;
+    }
+    
+    .card p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    
+    .card h4 {
+        color: red;
+        margin: 0;
+        font-size: 14px;
+    }
+    
+    @keyframes scroll {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+    }
+    </style>
+    
+    <!-- TESTIMONIAL SLIDER CONTENT -->
+<div class="slider">
+    <div class="slide-track">
+  
+      <div class="card">
+        <p>
+          "I started this program with zero consistency and honestly didn’t expect much. 
+          Within the first week, I already felt more disciplined and structured. 
+          The workouts were simple but pushed me hard enough to see progress. 
+          My energy levels improved and I stopped skipping sessions completely. 
+          By the end of the 30 days, I lost 8kg and felt way more confident. 
+          Everything is laid out so clearly that you don’t have to think. 
+          This is the first plan I’ve actually finished."
+        </p>
+        <h4>- Jake Mitchell</h4>
+      </div>
+  
+      <div class="card">
+        <p>
+          "I’ve tried so many fitness plans before and always quit halfway through. 
+          This one felt different because it’s so structured and easy to follow. 
+          I didn’t feel overwhelmed at any point during the program. 
+          The nutrition guidance helped me stay on track without overcomplicating things. 
+          I started seeing physical changes in just a couple of weeks. 
+          My confidence went up massively and I actually enjoyed the process. 
+          Definitely the best program I’ve used."
+        </p>
+        <h4>- Sarah Lester</h4>
+      </div>
+  
+      <div class="card">
+        <p>
+          "Consistency has always been my biggest problem until I found this. 
+          The layout makes it almost impossible to get lost or confused. 
+          Every day feels purposeful and keeps you locked in mentally. 
+          I built a routine that I actually stuck to for once. 
+          My strength went up and I started seeing muscle definition quickly. 
+          It’s simple but incredibly effective if you follow it properly. 
+          I’ll be running this again for sure."
+        </p>
+        <h4>- Chris Darrons</h4>
+      </div>
+  
+      <div class="card">
+        <p>
+          "I was looking for something that would actually help me gain muscle. 
+          This program delivered way more than I expected. 
+          The workouts hit perfectly and didn’t waste time on unnecessary stuff. 
+          I started noticing strength increases within the first two weeks. 
+          My body composition changed and I looked noticeably bigger. 
+          It kept me accountable every single day. 
+          Easily worth it if you’re serious about results."
+        </p>
+        <h4>- Ethan Rayne</h4>
+      </div>
+  
+      <div class="card">
+        <p>
+          "Everything about this plan is straightforward and easy to follow. 
+          I didn’t need to overthink anything which helped me stay consistent. 
+          The small daily wins built up quickly over time. 
+          I started feeling healthier and more active overall. 
+          My motivation improved and I actually looked forward to training. 
+          The results came faster than I expected. 
+          I’d recommend this to anyone starting out."
+        </p>
+        <h4>- Mia Klebber.</h4>
+      </div>
+  
+      <div class="card">
+        <p>
+          "This completely changed how I approach fitness and routine. 
+          Before this, I had no structure and kept restarting over and over. 
+          The program forced me to stay disciplined in a good way. 
+          I became more consistent with both training and nutrition. 
+          I feel stronger, more focused, and more confident overall. 
+          It’s simple but powerful if you commit to it. 
+          Definitely something I’ll keep using long term."
+        </p>
+        <h4>- Daniel Tarry.</h4>
+      </div>
+  
+      <!-- DUPLICATE FOR LOOP -->
+      <div class="card">
+        <p>
+          "I started this program with zero consistency and honestly didn’t expect much. 
+          Within the first week, I already felt more disciplined and structured. 
+          The workouts were simple but pushed me hard enough to see progress. 
+          My energy levels improved and I stopped skipping sessions completely. 
+          By the end of the 30 days, I lost 8kg and felt way more confident. 
+          Everything is laid out so clearly that you don’t have to think. 
+          This is the first plan I’ve actually finished."
+        </p>
+        <h4>- Jake M.</h4>
+      </div>
+  
+      <div class="card">
+        <p>
+          "I’ve tried so many fitness plans before and always quit halfway through. 
+          This one felt different because it’s so structured and easy to follow. 
+          I didn’t feel overwhelmed at any point during the program. 
+          The nutrition guidance helped me stay on track without overcomplicating things. 
+          I started seeing physical changes in just a couple of weeks. 
+          My confidence went up massively and I actually enjoyed the process. 
+          Definitely the best program I’ve used."
+        </p>
+        <h4>- Sarah L.</h4>
+      </div>
+  
+      <div class="card">
+        <p>
+          "Consistency has always been my biggest problem until I found this. 
+          The layout makes it almost impossible to get lost or confused. 
+          Every day feels purposeful and keeps you locked in mentally. 
+          I built a routine that I actually stuck to for once. 
+          My strength went up and I started seeing muscle definition quickly. 
+          It’s simple but incredibly effective if you follow it properly. 
+          I’ll be running this again for sure."
+        </p>
+        <h4>- Chris D.</h4>
+      </div>
+  
+    </div>
+  </div>
+                  <!-- IMAGE -->
+                  <div style="margin: 20px 0;">
+                    <img src="r.png" alt="Offer"
+                         style="width: 180px; max-width: 100%; display: block; margin: 0 auto; border-radius: 10px;">
+                  </div>
+              
+                  <!-- TEXT -->
+                  <div style="margin-top: 20px;">
+                    <h2 style="margin-bottom: 10px; color: red;">We'd love to hear from you!</h2>
+                    <p style="font-size: 16px; color: #555;">disciplinestore.au@gmail.com</p>
+                  </div>
+              
+                </div>
+              
+              </section>
+        </main>
 
+        <footer data-aos="slide-up">
+        </footer>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
 
-
+    </script>
 </body>
+
 </html>
 
