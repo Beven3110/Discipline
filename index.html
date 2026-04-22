@@ -59,16 +59,15 @@
                         <a href="#programs" id="member-btn" data-aos="slide-up">BECOME A MEMBER TODAY</a>
                     </div>
 
-                    <div class="hours">
-                        <h3 data-aos="slide-up">What You Get:</h3>
-
-                            <p class="days" data-aos="slide-up"><strong>
-                                    Workouts
-                                  </strong></p> 
-                                 <p class="days" data-aos="slide-up"><strong>Progress Tracker</strong></p>
-                                 <p class="days" data-aos="slide-up"><strong>Diet Plans</strong></p>
-                            <p class="days" data-aos="slide-up"><strong>Recipes</strong></p> 
-                    </div>
+                    <center>
+    <div class="hours">
+        <h3>What You Get:</h3>
+        <p class="days"><strong>Workouts</strong></p>
+        <p class="days"><strong>Progress Tracker</strong></p>
+        <p class="days"><strong>Diet Plans</strong></p>
+        <p class="days"><strong>Recipes</strong></p>
+    </div>
+</center>
                 </div>
             </section>
 
@@ -104,100 +103,44 @@
               
               </section>
 
-              <section id="programs">
+             <!-- PROGRAM -->
+<section id="programs">
+    <center>
+        <div class="class-container">
+            <h3>Get A Perfect Body with</h3>
+            <h2>Our 30 Days Transformation Program</h2>
+        </div>
 
-                <div class="class-container" align="center" style="width:970px;">
-                    <h3 data-aos="slide-up">Get A Perfect Body with</h3>
-                    <h2 data-aos="slide-up" style="color: red;">
-                        Our 30 Days Transformation Program
-                    </h2>
+        <div class="programs-container">
+
+            <!-- CAROUSEL -->
+            <div class="carousel">
+                <img id="sliderImage" src="tran.png">
+                <div class="dots">
+                    <span class="dot active" onclick="changeSlide(0)"></span>
+                    <span class="dot" onclick="changeSlide(1)"></span>
+                    <span class="dot" onclick="changeSlide(2)"></span>
                 </div>
-            
-                <center>
-                    <div class="programs-container" data-aos="slide-up" style="margin-top: 40px;">
-                        
-                        <style>
-                            .carousel {
-                                text-align: center;
-                                max-width: 600px;
-                                margin: 0 auto;
-                            }
-                            
-                            .carousel img {
-                                width: 100%;
-                                height: 450px;
-                                object-fit: cover;
-                                border-radius: 10px;
-                            }
-                            
-                            .dots {
-                                margin-top: 15px;
-                            }
-                            
-                            .dot {
-                                height: 12px;
-                                width: 12px;
-                                margin: 5px;
-                                background-color: #555;
-                                border-radius: 50%;
-                                display: inline-block;
-                                cursor: pointer;
-                            }
-                            
-                            .active {
-                                background-color: red;
-                            }
-                            </style>
-                            
-                            <div class="carousel">
-                            
-                              <!-- IMAGES -->
-                              <img id="sliderImage" src="tran.png">
-                            
-                              <!-- DOTS -->
-                              <div class="dots">
-                                <span class="dot active" onclick="changeSlide(0)"></span>
-                                <span class="dot" onclick="changeSlide(1)"></span>
-                                <span class="dot" onclick="changeSlide(2)"></span>
-                              </div>
-                            
-                            </div>
-                            
-                            <script>
-                            const images = [
-                              "tran.png",
-                              "9.png",
-                              "8.png"
-                            ];
-                            
-                            function changeSlide(index) {
-                                document.getElementById("sliderImage").src = images[index];
-                            
-                                document.querySelectorAll(".dot").forEach(dot => dot.classList.remove("active"));
-                                document.querySelectorAll(".dot")[index].classList.add("active");
-                            }
-                            </script>
-                             
-                             <div class="class-info" align="center" style="width:500px;">
-                                <h3 class="name-heading">30 Days</h3>
-                                <h4>Transformation Program</h4>
-                            
-                                <p>
-                                    <span style="text-decoration: line-through; color: gray;">$49.99</span>
-                                    <span style="color: red; font-size: 20px; font-weight: bold;"> $19.99</span>
-                                </p>
-                            
-                                <a href="https://buy.stripe.com/28E7sL3Bw3en5Kz6Mh6J205" 
-   style="background-color: red; color: white; border: none; padding: 10px 20px; font-size: 16px; cursor: pointer; text-decoration: none; display: inline-block;">
-   Buy Now
-</a>
-                            </div>
-            
-                    </div>
-                </center>
+            </div>
 
-            </section>
+            <!-- CARD -->
+            <div class="class-info">
+                <h3>30 Days</h3>
+                <h4>Transformation Program</h4>
 
+                <p>
+                    <span style="text-decoration: line-through;">$49.99</span>
+                    <span style="color:red; font-weight:bold;"> $19.99</span>
+                </p>
+
+                <a href="https://buy.stripe.com/28E7sL3Bw3en5Kz6Mh6J205" class="buy-btn">
+                    Buy Now
+                </a>
+            </div>
+
+        </div>
+    </center>
+</section>
             <section id="schedules" style="text-align: center;">
                 <h3 data-aos="slide-up">An Example Of Our</h3>
                 <h2 data-aos="slide-up" style="color: red;">Workout Schedule</h2>
